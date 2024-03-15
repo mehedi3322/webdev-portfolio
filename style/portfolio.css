@@ -1,0 +1,30 @@
+/*nev related style*/
+nav{
+    display:flex
+}
+/* this css given from figma */
+.web-title{
+   color: #181818; 
+   font-size: 45px;
+   font-weight: 800;
+}
+/* r color css */
+.orange{
+    color: #FD6E0A;
+}
+/* button css copy from figma */
+.button-orange{
+    border-radius: 5px;
+    background-color:#FD6E0A;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+}
+nav a{
+    text-decoration: none;
+    color:#474747
+}
