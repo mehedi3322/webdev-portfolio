@@ -1,6 +1,8 @@
 /*nev related style*/
 nav{
-    display:flex
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* this css given from figma */
 .web-title{
@@ -16,9 +18,15 @@ nav{
 .button-orange{
     border-radius: 5px;
     background-color:#FD6E0A;
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px ;
 }
 nav>ul{
     display: flex;
+    align-items:center;
 }
 nav li{
     list-style: none;
