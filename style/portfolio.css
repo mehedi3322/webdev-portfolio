@@ -40,13 +40,61 @@ nav a{
 /* All header backround color copy from figma */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat:no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
+}
+.banner-content{
+    max-width: 500px;
+   
 }
 .banner.profile{
     width: 500px;
+}
+/* css copy from figma */
+.banner-intro{
+   font-size: 45px; 
+   color:#474747;
+   margin-bottom:0px;
+}
+/* css copy from figma */
+.banner-title{
+    font-size:85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom:20px;
+
+}
+/* css copy from figma */
+.banner-description{
+    margin-bottom: 30px;
+  
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+/* figma given this css if I click about icon */
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
