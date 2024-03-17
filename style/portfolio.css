@@ -119,4 +119,10 @@ main{
     font-weight: bold;
     margin-top: 5px;
 }
+#what-i-do{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
 
