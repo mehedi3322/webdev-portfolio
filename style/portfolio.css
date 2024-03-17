@@ -78,6 +78,10 @@ nav a{
   
 }
 /* main section styles */
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section styles */
 .about{
@@ -86,6 +90,7 @@ nav a{
     background: #FFF8F3;
     margin: 130px 0px;
 }
+
 /* figma given this css if I click about icon */
 .section-title{
     color: #181818;
@@ -98,3 +103,20 @@ nav a{
     text-align: center;
     font-size: 18px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 0px;
+}
+.info-description{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
